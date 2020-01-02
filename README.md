@@ -1,2 +1,2 @@
 # ShakeCamera
-ShakeCamera state for JMonkey Game Engine
+Camera shaking state for JMonkey Game Engine

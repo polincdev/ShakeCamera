@@ -24,3 +24,8 @@ boolean  equalShake =false;
 //shake direction - predefined
 int directon=ShakeCamAppState.SHAKE_DIR_ALL;
 ```
+#### Call
+```
+camAppState.shake(shakeDuration,period, frequency, amplitude, falloff, equalShake, directon);
+       
+```

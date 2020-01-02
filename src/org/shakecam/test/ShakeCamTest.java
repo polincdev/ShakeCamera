@@ -65,6 +65,12 @@ public class ShakeCamTest extends SimpleApplication implements ActionListener {
 
     @Override
     public void simpleInitApp() {
+        
+       //No stats
+        setDisplayStatView(false);
+        setDisplayFps(true);
+        
+        //
         Box b = new Box(1, 1, 1);
         Geometry geom = new Geometry("Box", b);
         Geometry geom2 = new Geometry("Quad",new Quad(15,15));

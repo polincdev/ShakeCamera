@@ -1,6 +1,8 @@
 # ShakeCamera
 Camera shaking state for JMonkey Game Engine
 
+![ShakeCamera](../master/img/ShakeCamera.jpg)
+
 ### Usage
 #### Install
 ```
@@ -29,3 +31,4 @@ int directon=ShakeCamAppState.SHAKE_DIR_ALL;
 camAppState.shake(shakeDuration,period, frequency, amplitude, falloff, equalShake, directon);
        
 ```
+
